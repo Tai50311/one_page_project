@@ -1083,6 +1083,15 @@ section,
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
+.pricing-item {
+  transition: transform 0.3s ease-in-out; /* 讓變換效果平滑過渡 */
+}
+
+.pricing-item:hover {
+  transform: scale(1.05); /* 滑鼠懸停時放大 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 增加陰影效果讓放大更顯眼 */
+}
+
 .pricing {
   padding: 60px 0 120px 0;
 }
